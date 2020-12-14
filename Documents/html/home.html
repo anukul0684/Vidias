@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Header And Footer</title>
+    <link rel="stylesheet" href="headerfootercss.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("ham_nav");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        
+        <header>
+            <div id="inner_header">
+                <img src="images/logo2.svg" alt="logo"/>
+                <nav id = "hamburger">
+                    
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                    <ul id="ham_nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </nav>
+                <nav id="main">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        
+        <div id="content">
+            <section>
+                <div class="welcome_text">
+                    <div id="home_box">
+                        <img src="images/home_box.png" alt="Home Box" />
+                        <span id="intro_1">Welcome to ViDiA</span>
+                        <span id="intro_2">We provide you with the Best Laptops!!!</span>
+                        <span id="intro_3">Basic Home books, Premium Business Books and than to High End Gaming Laptops</span>
+                    </div>
+                </div>
+
+                <div id="sec_callout">
+                    <a href="#">
+                        <div id="callout_1" class="home_callout">
+                            <div><img src="images/laptop1.png" alt="" /></div>
+                            <p>Asus</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div id="callout_2" class="home_callout">
+                            <div><img src="images/laptop2.png" alt="" /></div>
+                            <p>Apple</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="callout_3" class="home_callout">
+                            <div><img src="images/laptop3.png" alt="" /></div>
+                            <p>Dell</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="callout_4" class="home_callout">
+                            <div><img src="images/laptop4.png" alt="" /></div>
+                            <p>HP</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="callout_5" class="home_callout">
+                            <div><img src="images/laptop5.png" alt="" /></div>
+                            <p>Lenovo</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="callout_6" class="home_callout">
+                            <div><img src="images/laptop1.png" alt="" /></div>
+                            <p>Acer</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="cat_callout">
+                    <a href="">
+                        <div id="cat_callout_1" class="home_cat">
+                            <div><img src="images/memory_capacity.png" alt="" /></div>
+                            <p>Memory</p>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div id="cat_callout_2" class="home_cat">
+                            <div><img src="images/hard_drive_capacity.png" alt="" /></div>
+                            <p>Operating System</p>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div id="cat_callout_3" class="home_cat">
+                            <div><img src="images/screen.png" alt="" /></div>
+                            <p>Screen</p>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div id="cat_callout_4" class="home_cat">
+                            <div><img src="images/processor.png" alt="" /></div>
+                            <p>Processor</p>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div id="cat_callout_5" class="home_cat">
+                            <div><img src="images/graphics_card.png" alt="" /></div>
+                            <p>Graphics</p>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div id="cat_callout_6" class="home_cat">
+                            <div><img src="images/price.png" alt="" /></div>
+                            <p>Price</p>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div id="inner_footer">
+                <ul class="primary_ul">
+                    <li>
+                        <ul class="secondary_ul">
+                            <li>About</li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="secondary_ul">
+                            <li>Help</li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="secondary_ul">
+                            <li>Policy</li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </li>
+                    <li id="vertical_li">
+                        <div class="vertical"></div>
+                    </li>
+                    <li>
+                        <ul class="secondary_ul address_ul">
+                            <li>Address</li>
+                            <li id="address">
+                                Lorem Ippsumsamdkaldjalkd jladjskldjlaksdjl ksjdkldsjal
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            <hr/>
+
+            <p id="copyright"> copyright&copy; by vidias</p>
+
+        </footer>
+
+    </div>
+</body>
+</html>

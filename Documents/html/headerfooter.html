@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Header And Footer</title>
+    <link rel="stylesheet" href="headerfootercss.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("ham_nav");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        
+        <header>
+            <div id="inner_header">
+                <img src="images/logo2.svg" alt="logo"/>
+                <nav id = "hamburger">
+                    
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                    <ul id="ham_nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </nav>
+                <nav id="main">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        
+        <div id="content">
+            <section>
+                
+            </section>
+        </div>
+
+        <footer>
+            <div id="inner_footer">
+                <ul class="primary_ul">
+                    <li>
+                        <ul class="secondary_ul">
+                            <li>About</li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="secondary_ul">
+                            <li>Help</li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="secondary_ul">
+                            <li>Policy</li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </li>
+                    <li id="vertical_li">
+                        <div class="vertical"></div>
+                    </li>
+                    <li>
+                        <ul class="secondary_ul address_ul">
+                            <li>Address</li>
+                            <li id="address">
+                                Lorem Ippsumsamdkaldjalkd jladjskldjlaksdjl ksjdkldsjal
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            <hr/>
+
+            <p id="copyright"> copyright&copy; by vidias</p>
+
+        </footer>
+
+    </div>
+</body>
+</html>
