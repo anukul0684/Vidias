@@ -75,8 +75,8 @@ class HomeController extends Controller
             'email' => 'bail|required|string',
             'comment' => 'bail|required|string',
         ]);
-
-        $to_email = 'vidialaptops@gmail.com';
+                
+        $to_email = 'kulshresthanu9@gmail.com';
         $to_name = "ViDiA";
 
         Mail::send('emails/contact',$valid,function($message) use($valid,$to_email,$to_name){

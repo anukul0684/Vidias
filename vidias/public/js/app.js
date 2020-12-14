@@ -515,8 +515,8 @@ eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourc
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Course\DIT_16035_2002_eCommerce\Vidias\vidias\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Course\DIT_16035_2002_eCommerce\Vidias\vidias\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\Course\DIT_16035_2002_eCommerce\Anu\Vidias\vidias\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Course\DIT_16035_2002_eCommerce\Anu\Vidias\vidias\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
